@@ -13,5 +13,10 @@
     "url": "https://books.toscrape.com/catalogue/the-requiem-red_995/index.html",
     "sell_try": 2500.0,
     "min_margin": 25.0
+  },
+  "velvet": {
+    "url": "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+    "sell_try": 4600.0,
+    "min_margin": 20.0
   }
 }
