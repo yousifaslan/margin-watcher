@@ -118,6 +118,14 @@ missed checks are combined into one fresh check (`coalesce=True`).
 ## Data source and fair use
 - Supplier pages: books.toscrape.com, a public site built for scraping practice. Each check reads one page per product, with a clear `User-Agent`.
 - Exchange rates: `open.er-api.com` (free, no key, updated daily).
+- ## Troubleshooting
+| Message | What to do |
+|---|---|
+| `No module named 'requests'` | Activate the virtual environment and run `pip install -r requirements.txt` |
+| `Supplier not allowed` | The website is not in the allowed list (`ALLOWED_HOSTS` in `margin_watcher.py`) |
+| `no answer from the server after 3 tries` | Check your internet connection and run `python cli.py check` again |
+| `page structure changed` | The supplier changed its website design; the last good data is kept |
+| `... is damaged. Fix or delete it.` | A data file was edited by hand and is no longer valid JSON |
 
 ## Team
 See the `contributions/` folder.
