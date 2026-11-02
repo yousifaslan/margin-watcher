@@ -1,4 +1,4 @@
-# Ghina SURNAME · STUDENT_ID · @githubusername
+# Ghina Abualoul · 2509115252 · @ghinaabualoul
 
 ## My role
 Wrote the code of the project together with Yousif.
