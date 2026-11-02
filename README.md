@@ -118,7 +118,8 @@ missed checks are combined into one fresh check (`coalesce=True`).
 ## Data source and fair use
 - Supplier pages: books.toscrape.com, a public site built for scraping practice. Each check reads one page per product, with a clear `User-Agent`.
 - Exchange rates: `open.er-api.com` (free, no key, updated daily).
-- ## Troubleshooting
+
+## Troubleshooting
 | Message | What to do |
 |---|---|
 | `No module named 'requests'` | Activate the virtual environment and run `pip install -r requirements.txt` |
