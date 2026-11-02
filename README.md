@@ -91,14 +91,17 @@ python cli.py check                           # "mouse: price 27.0 -> 30.0" and 
 python cli.py check                           # nothing new -> no alerts
 python cli.py add --id x --url file:///etc/passwd --sell 100   # rejected
 ```
-## Example output
 
+## Example output
+```
 $ python cli.py list
 ID          Product                    Supplier   Cost TL   Sell TL  Margin  Status
 --------------------------------------------------------------------------------------
 attic       A Light in the Attic      51.77 GBP   3461.36   4500.00   23.1%  OK
 sapiens     Sapiens: A Brief Histor   54.23 GBP   3625.84   4400.00   17.6%  LOW MARGIN
 requiem     The Requiem Red           22.65 GBP   1514.39   2500.00   39.4%  OK
+```
+
 ## Robustness: input rules and failure handling
 | Input | Rule |
 |---|---|
