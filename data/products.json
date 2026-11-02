@@ -1,0 +1,17 @@
+{
+  "attic": {
+    "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+    "sell_try": 4500.0,
+    "min_margin": 20.0
+  },
+  "sapiens": {
+    "url": "https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html",
+    "sell_try": 4400.0,
+    "min_margin": 20.0
+  },
+  "requiem": {
+    "url": "https://books.toscrape.com/catalogue/the-requiem-red_995/index.html",
+    "sell_try": 2500.0,
+    "min_margin": 25.0
+  }
+}
