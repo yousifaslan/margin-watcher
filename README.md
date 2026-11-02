@@ -129,3 +129,8 @@ missed checks are combined into one fresh check (`coalesce=True`).
 
 ## Team
 See the `contributions/` folder.
+
+## Limitations and next steps
+- The demo supplier is a practice shop (books.toscrape.com). A real shop would add its own suppliers to `ALLOWED_HOSTS` after checking that they allow automated reading.
+- Exchange rates come from a free API that updates once a day, which is enough for daily price decisions.
+- Next steps: email reports, a weekly summary of all margins, and alerts per product owner.
